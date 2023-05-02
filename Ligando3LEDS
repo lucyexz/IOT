@@ -1,0 +1,26 @@
+// C++ code
+//
+void setup() //Declaração das LEDS
+{
+  pinMode(13, OUTPUT); //Pin 13 definido como SAÍDA/OUTPUT
+  pinMode(12, OUTPUT); //Pin 12 ''
+  pinMode(11, OUTPUT); //Pin 11 ''
+}
+
+void loop() //Código de funcionamento
+{
+   digitalWrite(11, HIGH); //Pin 11 definido como nível ALTO
+   delay (700); //Delay do código
+   digitalWrite(11, LOW); //Pin 11 definido como nível BAIXO
+   delay (700);
+  
+   digitalWrite(12, HIGH); //''
+   delay (500);
+   digitalWrite(12, LOW); //''
+   delay (500);
+  
+   digitalWrite(13, HIGH); //''
+   delay (700);
+   digitalWrite(13, LOW); //''
+   delay (700);
+}
